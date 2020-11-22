@@ -1,0 +1,10 @@
+html {
+    font-size: 62.5%;
+  }
+   
+  body {
+    color: rgb(77, 71, 100);
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", Meiryo, sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.6;
+  }
