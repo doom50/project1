@@ -3,8 +3,35 @@ html {
   }
    
   body {
-    color: rgb(77, 71, 100);
+    color: rgb(7, 3, 27);
     font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", Meiryo, sans-serif;
     font-size: 1.4rem;
     line-height: 1.6;
+  }
+
+  header  {
+    float: left;
+    max-width: 900px;
+    margin: 0 auto;
+  }
+
+  header p img {
+    width: 100%;
+    height: auto;
+  }
+  ul{
+    display: flex;
+    background-color: rgb(0, 0, 8) ;
+    color: white;
+    list-style-type: none;
+    justify-content: space-around;
+    padding-left: 0;
+  }
+
+  li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.8rem;
   }
