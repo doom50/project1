@@ -1,6 +1,13 @@
 new Vue({
     el: '#app',
     data: {
-        message: 'Goot Morgen!'
+            now: ''
+        },
+        methods:{
+            onclic: function() {
+               // alert('onclick!!')
+               this.now = new Date().toLocaleString();
+            
+        }
     } 
 })
