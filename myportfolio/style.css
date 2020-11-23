@@ -5,7 +5,8 @@ html {
   h1 {
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.2em;
-    color: #666;
+    color: #151313;
+    text-align: center;
   }
   body {
     color: rgb(7, 3, 27);
@@ -15,9 +16,8 @@ html {
   }
 
   header  {
-    float: left;
     max-width: 900px;
-    margin: 0 auto;
+    margin: 150px auto;
   }
 
   header p img {
@@ -33,6 +33,9 @@ html {
     padding-left: 0;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 0.2em;
+    margin: 0;
+    padding: 0;
+    height: 30px;
   }
 
   li {
@@ -72,4 +75,52 @@ html {
     font-size: 11px;
     letter-spacing: 0.2em;
     text-align: center;
+  }
+main {
+  height: 800px;
+}
+  main h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2em;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    margin-: 80px 0 10px;
+
+  }
+  main p {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2em;
+    color: rgb(29, 28, 28);
+    text-align: center;
+    font-weight: lighter;
+    font-size: smaller;
+    margin: 5px 10px;
+  }
+
+  .hob {
+    display: inline-block;
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    height: 300px;
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+  .hob p {
+    font-family: helvetica;
+    font-weight: lighter;
+    font-size: 9px;
+    text-align: left;
+  }
+  .hob_title {
+    font-family: helvetica;
+    font-weight: bolder;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-align: center;
+    margin-top: 50px;
   }
