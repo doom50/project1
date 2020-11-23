@@ -2,6 +2,11 @@ html {
     font-size: 62.5%;
   }
    
+  h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2em;
+    color: #666;
+  }
   body {
     color: rgb(7, 3, 27);
     font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", "BIZ UDPGothic", Meiryo, sans-serif;
@@ -21,11 +26,13 @@ html {
   }
   ul{
     display: flex;
-    background-color: rgb(0, 0, 8) ;
-    color: white;
+    background-color: rgba(247, 247, 247, 0.171) ;
+    color:#666;
     list-style-type: none;
     justify-content: space-around;
     padding-left: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.2em;
   }
 
   li {
@@ -34,4 +41,35 @@ html {
     width: 100%;
     text-align: center;
     font-size: 1.8rem;
+  }
+
+  .sns {
+    background-color: black;
+    max-width: 900px;
+    margin: 0 auto;
+    list-style-type: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sns li {
+    width: 40px;
+    text-align : center;
+
+  }
+
+  .sns img {
+    width: 50%;
+    padding-top: 0;
+    background-color: white;
+    text-align: center;
+  }
+
+  .footer_copyright {
+    font-family: helvetica;
+    font-weight: normal;
+    font-size: 11px;
+    letter-spacing: 0.2em;
+    text-align: center;
   }
