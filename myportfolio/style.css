@@ -12,7 +12,7 @@ h1 {
   color: #151313;
   text-align: center;
 
-  
+
 }
 
 body {
@@ -122,7 +122,7 @@ main p {
   text-align: center;
   font-weight: lighter;
   font-size: smaller;
-  margin: 5px 10px;
+  margin: 6px 10px;
 }
 .about {
   display: inline-block;
