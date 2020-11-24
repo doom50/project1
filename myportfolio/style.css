@@ -59,6 +59,16 @@ li {
   font-size: 1.8rem;
 }
 
+.todo ul {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 40px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  list-style-type: disc;
+}
+
 .sns {
   background-color: black;
   max-width: 900px;
@@ -67,17 +77,17 @@ li {
   padding-left: 0;
   display: flex;
   justify-content: center;
+  height: 50px;
 }
 
 .sns li {
-  width: 40px;
+  width: 50px;
   text-align: center;
 }
 
 .sns img {
-  width: 50%;
-  padding-top: 0;
-  background-color: white;
+  width: 40%;
+  padding-top: 0px;
   text-align: center;
 }
 

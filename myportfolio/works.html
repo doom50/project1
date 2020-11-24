@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>WORKS</title>
+    <meta name="descriotion" contents="This is my portfolio"> 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
         integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
@@ -14,11 +15,11 @@
 <body>
     <div>
         <div class="container top">
-            <h1>My Portfolio
+            <h1>My Portfolio</h1>
                 <p><img src="/Users/doom/Desktop/portfolio/portfolio/myportfolio/3a8e048c.jpg" alt="main_images"
                         class="img-fluid">
                 </p>
-            </h1>
+            
         </div>
         <header class="sticky-top">
             <nav>
@@ -31,13 +32,30 @@
         </header>
     </div>
     <!--メインコンテナ------------------------------------------------>
-    <article class="works_container">
+    <div class="container">
+    <article class=" works_container">
         <h2 class="title">WORKS</h2>
         <hr class="divider">
+        <div id="app">
+            <h2>TODO</h2>
+            <form v-on:submit.prevent>
+                <input type="text" v-model="newItem">
+                <button v-on:click="addItem">
+                    追加する
+                </button>
 
+            </form>
+            <ul class="todo">
+                <li class="todo" v-for="todo in todos">
+                    <input type="checkbox" v-model="todo.isDone">
+                    <span>{{ todo.item }}</span>
 
-
-    </article>
+                </li>
+            </ul>
+            <pre>{{ $data }}</pre>
+        </div>
+        </article>
+    </div>
     <!--以下フッター------------------------------------------------>
 
     <footer>
@@ -53,6 +71,8 @@
             &COPY; 2020 My portfolio
         </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script src="js/main.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
