@@ -66,6 +66,7 @@ li {
   text-align: center;
   font-size: 1.8rem;
   list-style-type: disc;
+  display:  block !important;
 }
 
 .sns {
@@ -205,4 +206,18 @@ main p {
   font-size: 11px;
   letter-spacing: 0.2em;
 
+}
+
+#app li > span.done {
+  text-decoration: line-through;
+}
+
+.debag {
+  margin-top: 10px;
+}
+
+.dips {
+  text-align: left;
+  padding: 0 100px 0;
+  width: 120%;
 }
