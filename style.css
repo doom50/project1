@@ -71,7 +71,7 @@ li {
 
 .sns {
   background-color: black;
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   list-style-type: none;
   padding-left: 0;
@@ -118,7 +118,21 @@ main p {
   font-size: smaller;
   margin: 5px 10px;
 }
+.about {
 
+  display: inline-block;
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  height: 300px;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+}
 .hob {
   display: inline-block;
   font-family: helvetica;
@@ -127,7 +141,7 @@ main p {
   letter-spacing: 0.2em;
   text-align: center;
   height: 300px;
-  width: 25%;
+  width: 45%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -145,6 +159,7 @@ main p {
   letter-spacing: 0.2em;
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .title {
@@ -169,11 +184,26 @@ main p {
 }
 
 .works_container {
-  height: 500px;
+  height: 150px;
 }
 
 .st {
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+.todo_container {
+  
+  height: auto;
+  text-align:  center;
+  margin-bottom: 30px;
+}
+
+.todo_container h2{
+  padding-bottom: 20px;
+}
+
+.debag {
+  
 }

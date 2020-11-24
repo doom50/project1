@@ -1,9 +1,7 @@
 var app = new Vue({
     el: '#app',
-    data: {
-        newItem: '',
-        todos: []
-    },
+    data: {newItem: '',
+        todos: []},
     methods: {
         addItem: function(event) {
             // alert();

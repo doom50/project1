@@ -37,9 +37,12 @@
     <article class=" works_container">
         <h2 class="title">WORKS</h2>
         <hr class="divider">
-        <div id="app">
+        </div>
+        <div id="app" class="todo_container">
+            <div class="container">
             <h2>TODO</h2>
             <form v-on:submit.prevent>
+            </div>
                 <input type="text" v-model="newItem">
                 <button v-on:click="addItem">
                     追加する
@@ -53,7 +56,7 @@
 
                 </li>
             </ul>
-            <pre>{{ $data }}</pre>
+            <div class="card mx-auto h-30" style="width: 18rem;"><pre>{{ $data }}</pre></div>
         </div>
         </article>
     </div>
