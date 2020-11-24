@@ -13,7 +13,6 @@ h1 {
   text-align: center;
 }
 
-
 body {
   color: rgb(7, 3, 27);
   font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN",
@@ -119,7 +118,6 @@ main p {
   margin: 5px 10px;
 }
 .about {
-
   display: inline-block;
   font-family: helvetica;
   font-weight: normal;
@@ -127,11 +125,10 @@ main p {
   letter-spacing: 0.2em;
   text-align: center;
   height: 300px;
-  
+
   display: block;
   margin-left: auto;
   margin-right: auto;
-
 }
 .hob {
   display: inline-block;
@@ -164,23 +161,22 @@ main p {
 
 .title {
   font-weight: normal;
-    text-rendering: optimizeLegibility;
-    margin: 0;
-    margin-bottom: 8px;
-    line-height: 150%;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 0.2em;
-    color: #151313;
-    text-align: center;
-
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  margin-bottom: 8px;
+  line-height: 150%;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.2em;
+  color: #151313;
+  text-align: center;
 }
 
 .divider {
   border: none;
-    border-top: 1px solid #242a2c;
-    margin-bottom: 20px auto;
-    width: 450px;
+  border-top: 1px solid #242a2c;
+  margin-bottom: 20px auto;
+  width: 450px;
 }
 
 .works_container {
@@ -194,16 +190,19 @@ main p {
 }
 
 .todo_container {
-  
   height: auto;
-  text-align:  center;
+  text-align: center;
   margin-bottom: 30px;
 }
 
-.todo_container h2{
+.todo_container h2 {
   padding-bottom: 20px;
 }
 
-.debag {
-  
+.about {
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+
 }
