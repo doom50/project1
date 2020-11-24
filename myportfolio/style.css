@@ -7,12 +7,11 @@ html {
   margin: 150px auto;
 }
 h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Josefin Slab', serif;
   letter-spacing: 0.2em;
   color: #151313;
   text-align: center;
 }
-
 
 body {
   color: rgb(7, 3, 27);
@@ -26,6 +25,8 @@ a:link,
 a:visited {
   color: #151313;
   text-decoration: none;
+  font-family: 'Josefin Slab', serif;
+
 }
 
 header {
@@ -67,17 +68,18 @@ li {
   text-align: center;
   font-size: 1.8rem;
   list-style-type: disc;
+  display:  block !important;
 }
 
 .sns {
   background-color: black;
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
   list-style-type: none;
   padding-left: 0;
   display: flex;
   justify-content: center;
-  height: 50px;
+  height: 40px;
 }
 
 .sns li {
@@ -97,6 +99,8 @@ li {
   font-size: 11px;
   letter-spacing: 0.2em;
   text-align: center;
+  margin-top: 15px;
+  margin-bottom: 2rem;
 }
 main {
   height: 800px;
@@ -118,7 +122,19 @@ main p {
   font-size: smaller;
   margin: 5px 10px;
 }
+.about {
+  display: inline-block;
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-align: center;
+  height: 300px;
 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 .hob {
   display: inline-block;
   font-family: helvetica;
@@ -127,7 +143,7 @@ main p {
   letter-spacing: 0.2em;
   text-align: center;
   height: 300px;
-  width: 25%;
+  width: 45%;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -145,35 +161,79 @@ main p {
   letter-spacing: 0.2em;
   text-align: center;
   margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .title {
   font-weight: normal;
-    text-rendering: optimizeLegibility;
-    margin: 0;
-    margin-bottom: 8px;
-    line-height: 150%;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 0.2em;
-    color: #151313;
-    text-align: center;
-
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  margin-bottom: 8px;
+  line-height: 150%;
+  font-size: 30px;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 0.2em;
+  color: #151313;
+  text-align: center;
 }
 
 .divider {
   border: none;
-    border-top: 1px solid #242a2c;
-    margin-bottom: 20px auto;
-    width: 450px;
+  border-top: 1px solid #242a2c;
+  margin-bottom: 20px auto;
+  width: 450px;
 }
 
 .works_container {
-  height: 500px;
+  height: 150px;
 }
 
 .st {
   position: sticky;
   top: 0;
   z-index: 1000;
+}
+
+.todo_container {
+  height: auto;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.todo_container h2 {
+  padding: 40px 0 60px;
+  letter-spacing: 0.2em;
+  font-family: 'Merriweather', serif;
+}
+
+.about {
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  font-size: 9px;
+
+}
+
+#app li > span.done {
+  text-decoration: line-through;
+}
+
+.debag {
+  margin-top: 10px;
+}
+
+.dips {
+  text-align: left;
+  padding: 0 100px 50px;
+  width: 120%;
+  letter-spacing: 0.2em;
+  font-family: helvetica;
+  font-weight: normal;
+  font-size: 9px;
+
+}
+
+.btn_form {
+  margin-left: 10px;
 }
